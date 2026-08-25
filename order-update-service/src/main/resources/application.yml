@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: order-update-service
+
+order:
+  csv:
+    path: data/order_updates.csv
+
+position:
+  service:
+    url: http://localhost:8081
+
+max:
+  events:
+    per:
+      second: 50
